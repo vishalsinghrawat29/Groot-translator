@@ -30,19 +30,23 @@ body{
 .header-img{
     max-width: 450px;
     display: block;
-    padding: 2rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.container{
+    max-width: 600px;
     margin: auto;
+    padding: 16px;
 }
 
 textarea {
     display: block;
     background-color: #F3F4F6;
     border: 1px solid black;
-    max-width: 500px;
-    margin-left: 500px;
+    margin:auto;
     padding: 1rem;
     height: 15vh;
-    width: 50%;
+    width: 100%;
     margin-top: 3rem;
 
 }
@@ -52,21 +56,17 @@ textarea {
     display: block;
     background-color: #F3F4F6;
     border: 1px solid black;
-    max-width: 500px;
-    margin-left: 500px;
     padding: 1rem;
     height: 15vh;
-    width: 50%;
-    
-
-    
+    width: 100%;
+        
 }
 
 .btn{
     background-color: var(--primary-color);
     padding: 1rem;
     font-size: large;
-    margin-left: 500px;
+    margin: 0 auto;
     margin-top: 1.5rem;
     border: 1px solid #F3F4F6;
     cursor: pointer;
@@ -79,9 +79,8 @@ textarea {
 
 .output-head{
     font-size: larger;
-    margin-left: 480px;
     margin-top: 1.5rem;
-    padding: 1rem;
+    padding: 1rem 0;
     font-weight: 900;
     
 }
