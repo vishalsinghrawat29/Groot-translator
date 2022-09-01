@@ -28,36 +28,37 @@ body{
 }
 
 .header-img{
-    max-width: 450px;
+    box-sizing: border-box;
+    width: 94%;
     display: block;
-    padding: 1rem;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 .container{
     max-width: 600px;
     margin: auto;
-    padding: 16px;
+    padding: 0 2rem;
 }
 
 textarea {
+    box-sizing: border-box;
     display: block;
     background-color: #F3F4F6;
     border: 1px solid black;
     margin:auto;
-    padding: 1rem;
-    height: 15vh;
     width: 100%;
-    margin-top: 3rem;
-
+    min-height: 20vh;
+    margin-top: 2rem;
+    padding: 1rem;
+    line-height: 1.6;
 }
 
-#output {
 
-    display: block;
+#output {
+    box-sizing: border-box;
     background-color: #F3F4F6;
     border: 1px solid black;
     padding: 1rem;
-    height: 15vh;
+    height: 18vh;
     width: 100%;
         
 }
@@ -66,12 +67,14 @@ textarea {
     background-color: var(--primary-color);
     padding: 1rem;
     font-size: large;
-    margin: 0 auto;
     margin-top: 1.5rem;
-    border: 1px solid #F3F4F6;
     cursor: pointer;
     color: white;
 }
+
+
+
+
 
 .input-box{
     font-size: larger;
@@ -80,10 +83,10 @@ textarea {
 .output-head{
     font-size: larger;
     margin-top: 1.5rem;
-    padding: 1rem 0;
-    font-weight: 900;
-    
+    padding: 0.5rem 0;
+    font-weight: 900;  
 }
+
 
 .footer{
     background-color: var(--primary-color);
@@ -100,6 +103,7 @@ textarea {
 .footer p{
     max-width: 800px;
     margin: auto;
+    line-height: 1.5;
 }
 
 .footer h4{
@@ -107,7 +111,7 @@ textarea {
 }
 .footer a{
     text-decoration: none;
-    color: #febe74;
+    color: #E6AC5A;
  }
 
 
